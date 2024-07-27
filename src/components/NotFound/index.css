@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.not-found-img {
+  width: 60%;
+}
+.not-found-header {
+  width: 90%;
+  font-family: 'roboto';
+  font-size: 40px;
+  color: #616e7c;
+}
+.not-found-description {
+  width: 90%;
+  color: #616e7c;
+  font-family: 'roboto';
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .not-found-img {
+    width: 60%;
+  }
+  .not-found-header {
+    width: 85%;
+    font-family: 'roboto';
+    font-size: 26px;
+    color: #616e7c;
+  }
+  .not-found-description {
+    width: 85%;
+    color: #616e7c;
+    font-family: 'roboto';
+    font-size: 14px;
+  }
+}
